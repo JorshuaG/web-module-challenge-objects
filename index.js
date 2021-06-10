@@ -21,6 +21,7 @@ The function should:
 
 function createMenuItem(name, price, category) {
   return { name, price, category };
+  ,
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
