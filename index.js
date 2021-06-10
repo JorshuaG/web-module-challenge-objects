@@ -138,8 +138,10 @@ Use the getReviewByIndex function below to do the following:
 */
 
 function getReviewByIndex(array, index) {
-  return `${this.name} gave the restaurant a ${this.rating}, and their feedback was : ${this.feedback}`;
+  const { name, rating, feedback } = array[index];
+  return `${name} gave the restaurant a ${rating} star review, and their feedback was: ${feedback}`;
 }
+getReviewByIndex(reviews, 0);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Write a function to get information about the most recent (last) review called `getLastReview`
